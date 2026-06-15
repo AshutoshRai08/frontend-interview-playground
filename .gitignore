@@ -7,3 +7,4 @@ build/
 
 # Local environment secret variables
 .env
+.env.local
