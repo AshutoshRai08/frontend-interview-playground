@@ -9,3 +9,11 @@ export interface AppCardData {
   route: string;
   status: Status;
 }
+export interface Todo {
+  id: string;
+  text: string;
+  completed: boolean;
+  //   createdDate: Date;
+  //   Priority: string;
+  //   uniqueKey: number;
+}

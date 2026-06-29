@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import AccordionPage from "../features/accordion";
+import AccordionPage from "../features/accordion/Accordion";
 import CounterPage from "../features/counter";
+import TabsComponent from "../features/tabs/Tabs";
 import TodoPage from "../features/todo";
 import RootLayout from "../layouts/root-layout";
 import Dashboard from "../pages/dashboard/dashboard";
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "accordion",
         element: <AccordionPage />,
+      },
+      {
+        path: "tabs",
+        element: <TabsComponent />,
       },
     ],
   },

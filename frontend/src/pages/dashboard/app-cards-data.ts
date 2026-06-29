@@ -22,5 +22,12 @@ const appCardsData: AppCardData[] = [
     route: "/accordion",
     status: "Not Started",
   },
+  {
+    id: "tabs",
+    title: "Tabs",
+    difficulty: "Easy",
+    route: "/tabs",
+    status: "Not Started",
+  },
 ];
 export default appCardsData;
